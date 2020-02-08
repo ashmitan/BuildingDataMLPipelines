@@ -1,0 +1,25 @@
+<!doctype html>
+<title>Welcome to Car Number Plate Detection App</title>
+<h3>Car Number Plate Detection</h3>
+<p> Please upload images of car number plates. Image formats only JPEG, PNG is allowed.</p>
+<p>
+	{% with messages = get_flashed_messages() %}
+	  {% if messages %}
+		<ul class=flashes>
+		{% for message in messages %}
+		  <li>{{ message }}</li>
+		{% endfor %}
+		</ul>
+	  {% endif %}
+	{% endwith %}
+</p>
+<form method="post" action="/" enctype="multipart/form-data">
+    <dl>
+		<p>
+			<input type="file" name="file" autocomplete="off" required>
+		</p>
+    </dl>
+    <p>
+		<input type="submit" , name="upload" value="Upload">
+	</p>
+</form>
