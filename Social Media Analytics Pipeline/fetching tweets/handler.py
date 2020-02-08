@@ -40,12 +40,12 @@ consumer_key = ""
 consumer_secret = ""
 access_token = ""
 access_token_secret = ""
-bucket_name = "info7374-twitter-analytics"
+bucket_name = ""
 
 
 def main(event, context):
     tc = TweetCollector(consumer_key, consumer_secret, access_token, access_token_secret)
-    comp_list = ["coronavirus", "coronavirusoutbreak","coronavirusinis"]
+    comp_list = ["apple", "google","netflix"]
     for search_query in comp_list:
         twitter_feeds = tc.scrapper(search_query, "en", 500)
         # to_json = json.dumps(twitter_feeds,indent=4, sort_keys=True, default=str)
