@@ -1,0 +1,43 @@
+,Products,Product Categories,Price,Probability,prod_id
+0,Shirts,Clothing,20,0.001714195,0
+1,Shoes,Clothing,59,0.04140295,1
+2,T-shirts,Clothing,15,0.005820809,2
+3,Sweatshirts,Clothing,25,0.014926072,3
+4,Pants,Clothing,39,0.021247355,4
+5,Jeans,Clothing,30,0.015388612,5
+6,Neckces,Jewelry & Accessories,100,0.011028772,6
+7,Rings,Jewelry & Accessories,120,0.019539231,7
+8,Bracelets,Jewelry & Accessories,70,0.045935057,8
+9,Earrings,Jewelry & Accessories,65,0.061379308,9
+10,wedding Rings,Jewelry & Accessories,299,0.009556618,10
+11,Cuff-links,Jewelry & Accessories,79,0.040932361,11
+12,Handbags,Jewelry & Accessories,141,0.01857397,12
+13,Belt,Jewelry & Accessories,47,0.077053294,13
+14,Hats,Jewelry & Accessories,32,0.001990339,14
+15,Chocolate,Food & Groceries,5,0.001049495,15
+16,Beverages,Food & Groceries,7,0.008792279,16
+17,Snacks,Food & Groceries,10,0.016435409,17
+18,vegetables,Food & Groceries,23,0.001603046,18
+19,Fruits,Food & Groceries,17,0.023303438,19
+20,Mobile Phone,Electronics,899,0.017355081,20
+21,laptop,Electronics,1799,0.066808006,21
+22,Digital Watch,Electronics,379,0.032047899,22
+23,Camera,Electronics,1199,0.011013583,23
+24,Television,Electronics,2999,0.002133222,24
+25,Speakers,Electronics,149,0.001663798,25
+26,Red Dragon (Hannibal Lecter Book 1),Books,222,0.010041188,26
+27,The Hot Spot,Books,134,0.029286499,27
+28,True Confessions: A Novel,Books,116,0.044184607,28
+29,Complete Works of Swami Vivekananda,Books,219,0.04093434,29
+30,Corporate Chanakya,Books,8,0.031473941,30
+31,Bed,Home Décor,199,0.01115284,31
+32,Couch,Home Décor,1399,0.038509191,32
+33,Dressers,Home Décor,570,0.01674538,33
+34,Chairs,Home Décor,156,0.077496939,34
+35,Desks,Home Décor,270,0.001481337,35
+36,Tables,Home Décor,790,0.044983401,36
+37,Hot wheel,Kids,39,0.022979935,37
+38,Jenga,Kids,12,0.01509674,38
+39,Barbie Doll,Kids,34,0.002212736,39
+40,Daipers,Kids,19,0.020317668,40
+41,Baby Wipes,Kids,14,0.024409058,41

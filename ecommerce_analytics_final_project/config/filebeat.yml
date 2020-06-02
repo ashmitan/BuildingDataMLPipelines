@@ -1,0 +1,52 @@
+######################## Filebeat Configuration ############################
+
+#=========================== Filebeat prospectors =============================
+
+filebeat.inputs:
+- type: 
+  paths:
+    /home/ec2-user/orders/orders_*.log
+
+  fields:
+    log_type: apache
+    log_idx: orders
+  fields_under_root: false
+
+- type:
+  paths:
+    /home/ec2-user/members/member_*.log
+  fields:
+    log_type: apache
+    log_idx: members
+  fields_under_root: false
+
+- type:
+  paths:
+    /home/ec2-user/searches/search_*.log
+  fields:
+    log_type: apache
+    log_idx: searches
+  fields_under_root: false
+
+#========================= Filebeat global options ============================
+
+#filebeat.registry_file: /var/lib/filebeat/registry
+
+#================================ Outputs ======================================
+
+#----------------------------- Logstash output ---------------------------------
+output.logstash:
+  enabled: true
+  # The Logstash hosts
+  hosts: ["localhost:5044"]
+
+#================================ Logging ======================================
+logging.level: info
+logging.to_syslog: false
+logging.to_files: true
+logging.files:
+  path: /var/log/filebeat
+  name: filebeat.log
+  rotateeverybytes: 10485760 # = 10MB
+  keepfiles: 7
+
