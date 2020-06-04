@@ -11,3 +11,6 @@ This project aims to build data ingestion , machine learning and data inference 
 
 3. Time Series Analysis
 This project aims at scraping data from FRED website using FRED API and then developing a forecasting model. 
+
+4. E-Commerce Log Monitoring and Visualization using ELK stack
+This project aims to design end to end analytical pipeline, perform analytics on windows/server logs generated for an e-commerce website, stored in ElasticSearch and visualized in Kibana.  
